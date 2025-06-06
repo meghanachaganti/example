@@ -1,0 +1,52 @@
+.container{
+    background-color:rgb(250, 250, 250);
+    display:grid;
+    grid-template-columns:[first-line] 90px [second-line] 200px [third-line] 10px [fourth-line] auto [fifth-line] 70px [sixth-line] 70px [end];
+    grid-template-rows: [row1-start] 50px[row1-end]  40px [row2-end] 50px [row3-end] 30px [row4-end] 30px[row5-end] 50px [row6-end];
+}
+
+.nav{
+    grid-column: first-line / third-line;
+    grid-row: row1-start / row1-end;
+    background-color: blue;
+}
+
+.leftbar{
+    grid-column: fourth-line / end;
+    grid-row: row1-start / row1-end;
+    background-color: black;
+}
+
+.main{
+    grid-column: first-line / third-line;
+    grid-row: row1-end / row3-end;
+    background-color: rgba(0, 0, 255, 0.261);
+}
+
+.left-main{ 
+    grid-column: fourth-line / end;
+    grid-row: row1-end / row5-end;
+    background-color:  rgb(201, 123, 123);
+}
+
+.bar1{
+    grid-column: first-line / third-line;
+    grid-row:row3-end / row4-end;
+    background-color: rgb(47, 87, 138);
+}
+
+.bar2{
+    grid-column: first-line / third-line;
+    grid-row:row4-end / row5-end;
+    background-color: rgb(96, 66, 93);
+}
+.bar3{
+    grid-column: first-line / third-line;
+    grid-rows: row5-end / row6-end;
+    background-color: rgb(116, 191, 198);
+}
+.leftbar-footer{
+    grid-column: fourth-line / end;
+    grid-row:row5-end / row6-end ;
+    background-color: rgb(93, 83, 83);
+}

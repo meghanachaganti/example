@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(202, 36, 36);
+    color: white;
+}
+.servicecards{
+    display:flex;
+    flex-direction:row;
+    background-color: aliceblue;
+    padding-bottom: 10px;
+    flex-wrap: unwrap;
+    align-items: center;
+    height: 500px;
+    width: 90%;
+    margin: 30%;
+    justify-content:flex-start;
+}
+.service1{
+    width: 30%;
+    height: auto;
+    background-color: aqua;
+}
+.service2{
+     width: 30%;
+    height: auto;
+    background-color: rgb(44, 53, 53);   
+}
+.service3{
+    width: 30%;
+    height: auto;
+    background-color: rgb(71, 212, 36);
+}
+.service4{
+    width: 30%;
+    height: auto;
+    background-color: rgb(15, 202, 202);
+}
+.matter{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}

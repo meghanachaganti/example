@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color:white;
+}
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.right{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+}
+.right p{
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+
+button{
+    padding:10px 20px;
+    border:none;
+    background-color: cadetblue;
+    color:beige;
+    font-size: 20px;/*font increases button increases ,colors can be added backgroun n colr font*/
+    border-radius: 16px;/*half of right/left padding*/
+}
+button:hover/*psuedo classes :-- colon pakkana matter*/
+{
+    cursor:pointer;
+    background-color: brown;
+    border:solid white;
+}

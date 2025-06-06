@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            display: grid;
+            height: 100vh;
+            width:100%;
+            grid-template-columns: auto;
+            grid-template-rows: 80px auto;
+            grid-template-areas: "nav nav"
+            "main main";
+        }
+        .nav{
+            grid-area: nav;
+            background-color: rgb(147, 216, 232);
+        }
+        .main{
+            grid-area: main;
+            align-items: center;
+            background-color: rgba(0, 0, 255, 0.551);
+        }
+        .servicecards{
+            background-color: white;
+            padding-top: 300px;
+            padding-bottom: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .box1{
+            padding: 100px 90px;
+            margin:10px;
+            margin-left: 70px;
+            background-color: rgb(122, 122, 122);
+        }
+    
+        .box2{
+            padding: 100px 90px;
+            margin:10px;
+            margin-left: 70px;
+            background-color: rgb(122, 122, 122);
+        }
+        .box3{
+            padding: 100px 90px;
+            margin:10px;
+            margin-left: 70px;
+            background-color: rgb(122, 122, 122);
+        }
+        .box4{
+            padding: 100px 90px;
+            margin:10px;
+            margin-left: 70px;
+            background-color: rgb(122, 122, 122);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav"></div>
+        <div class="main">
+        <div class="servicecards">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

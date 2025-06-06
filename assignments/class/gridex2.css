@@ -1,0 +1,39 @@
+.container{
+    display:grid;
+    background-color: white;
+    grid-template-columns: [first-line] 40px [second-line] 50px [third-line] auto [fourth-line] 50px [end];
+    grid-template-rows: [row1-start] 40px [row1-end] 200px [row2-end] 150px [row3-end] 50px [row4-end];
+    height:100vh;
+    width: 100%;
+}
+
+.nav-bar{
+    background-color: pink;
+    grid-column: first-line / end;
+    grid-row: row1-start / row1-end;
+}
+
+.main{
+    background-color: palevioletred;;
+    grid-column: first-line / end;
+    grid-row: row1-end / row2-end;
+}
+
+.side{
+    grid-column: first-line / third-line;
+    grid-row: row2-end / row4-end;
+    background-color: rgb(184, 124, 124);
+    width: 150%;
+}
+
+.sub-side{
+    grid-column: third-line / end;
+    grid-row: row2-end / row3-end;
+    background-color: wheat;
+}
+
+.ss-footer{
+    grid-column: third-line / end;
+    grid-row: row3-end / row4-end;
+    background-color:papayawhip;
+}

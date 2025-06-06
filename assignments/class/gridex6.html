@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-columns:auto auto auto;
+            grid-template-rows: 110px 100px 400px 110px;
+            grid-template-areas: 
+            "header header header"
+            "navv navv navv"
+            "content maincontent content"
+            "footer footer footer";
+        }
+        .header
+        {
+            background-color: aqua;
+            grid-area: header;
+        }
+        .navv
+        {
+           background-color: blue;
+           grid-area: navv;
+        }
+        .content
+        {
+          background-color: bisque;
+          grid-area: content;
+        }
+        .maincontent
+        {
+           background-color: blueviolet;
+           grid-area: maincontent;
+        }
+        .footer
+        {
+          background-color: burlywood;
+          grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"> header </div>
+        <div class="navv"> nav</div>
+        <div class="content">content</div>
+        <div class="maincontent"> maincontent</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

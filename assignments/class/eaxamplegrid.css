@@ -1,0 +1,15 @@
+.container{
+    display:grid;
+    background-color: rgb(32, 206, 250);
+    grid-template-columns: [first] 40px [second] 50px [third] auto [four] 40px [five] 50px;
+    grid-template-rows: [row-1 start] 20px [row-2 start] 30px [row-3 start] 50px;
+}
+.item-2{
+    display: grid;
+    background-color: brown;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    padding-left: 20px;
+    width:100%;
+    height:60vh ;
+}

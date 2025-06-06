@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: 110px 250px 250px 110px;
+            grid-template-areas: 
+            "header header"
+            "section aside"
+            "article aside"
+            "footer footer"
+            ;
+        }
+        .header
+        {
+            background-color: rgb(246, 159, 159);
+            grid-area: header;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+            padding-top: 20px;
+        }
+        .section
+        {
+            background-color: rgb(148, 112, 112);
+            grid-area: section;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+            padding-top: 100px;
+        }
+        .article
+        {
+            background-color: rgb(146, 84, 84);
+            grid-area: article;
+            margin-bottom: 10px;
+            margin-right:10px;
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+            padding-top: 100px;
+        }
+        .aside
+        {
+            background-color: rgb(255, 153, 153);
+            grid-area: aside;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+            padding-top: 200px;
+        }
+        
+        .footer
+        {   
+            background-color: rgb(115, 65, 65);
+            grid-area: footer;
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="section">Section</div>
+        <div class="article">Article</div>
+        <div class="aside">Aside</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color:white
+}
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.right p{
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.left h1{
+    color: rgb(105, 105, 194);
+}
+button{
+ padding: 4px 20px;
+    border:none;
+    border-radius: 9px;
+}

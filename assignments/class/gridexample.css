@@ -1,0 +1,94 @@
+body {
+    margin : 0px;
+    padding : 0px;
+}
+
+.container{
+    display:grid;
+    height:100vh;
+    width:100%;
+    grid-template-columns: [first-line] 100px [second-line] auto [third-line] 50px [end];
+    grid-template-rows: [row1-start] 40px [row1-end] auto [row2-end] auto [row3-end] auto [row4-end];
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: first-line / end;
+    grid-row: row1-start / row1-end;
+    color:white;
+    background-color: rgb(25, 25, 25);
+}
+
+nav{
+    margin-right: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+.section{
+    display: flex;
+    grid-column: first-line / second-line;
+    grid-row: row1-end / row4-end;
+    background-color:#2b2929da;
+    color:white;
+}
+
+.section ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content:flex-start;
+    align-content:flex-start;
+}
+
+.hero-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-column: second-line / third-line;
+    grid-row: row1-end / row4-end;
+    background-color: hsla(0, 14%, 91%, 0.849);
+}
+
+.menu2{
+    grid-column: third-line / end;
+    grid-row: row1-end / row4-end;
+    color:white;
+    background-color: #374e4e9c;
+}
+
+.card1{
+    background-color: rgb(255, 253, 253);
+    width:20%;
+    margin-top:5%;
+    height: 150px;
+}
+.card2{
+    background-color:rgb(255, 253, 253);
+    width:20%;
+    margin-top:5%;
+    height: 150px;
+}
+
+.card3{
+    background-color: rgb(254, 254, 254);
+    width:20%;
+    margin-top:5%;
+    height: 150px;
+}
+
+.card4{
+    background-color: rgb(255, 255, 255);
+    width:20%;
+    margin-top:5%;
+    height: 150px;
+}

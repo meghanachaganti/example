@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(236, 235, 234);
+    color:black;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e9baba;
+}
+.right{
+    display:flex;
+    flex-direction: row;
+}
+.right p{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+button{
+    padding:4px 10px;
+    border:none;
+    border-radius: 10px;
+    background-color: aquamarine;
+
+}
+.head h1{
+    color:rgb(18, 172, 172);
+    float:left;
+    margin-left: right;
+}
+.head p{
+    text-align: center;
+    color:brown;
+    align-items: end;
+}

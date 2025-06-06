@@ -1,0 +1,56 @@
+  .main{
+        display:flex;
+        justify-content:space-around;
+        height: 100vh;
+        align-items: center;
+       }
+       .item{
+        background-color: rgb(184, 220, 220);
+        width:300px;
+        gap:30px;
+        height:300px;
+       }
+       body{
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+        color:black;
+        transition: background 0.3s, color 0.3s;
+        background-color: white;
+       }
+       .darkmode{
+        color:white;
+        background-color: black;
+       }
+       .btn{
+        align-self:auto;
+        width: 80px;
+        height:50px;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 20px;
+       }
+      .redmode{
+        color:rgb(1, 1, 1);
+        background-color: rgb(237, 92, 92);
+       }
+       .pinkmode{
+        color:rgb(1, 1, 1);
+        background-color: rgb(253, 103, 243);
+       }
+       .bluemode{
+        color:rgb(1, 1, 1);
+        background-color: rgb(4, 0, 251);
+       }
+       .brownmode{
+        color:rgb(1, 1, 1);
+        background-color: rgb(93, 26, 3);
+       }
+       .greymode{
+        color:rgb(1, 1, 1);
+        background-color: rgba(63, 63, 62, 0.633);
+       }
+       .yellowmode{
+        color:rgb(1, 1, 1);
+        background-color: rgb(253, 253, 8);
+       }

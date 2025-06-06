@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    background-color:crimson;
+    color:cornsilk;
+    justify-content: space-between;
+}
+.right{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.right p{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.left h1{
+    color:wheat;    
+}
+.middle{
+    text-align: center;
+    color:rgb(165, 6, 6);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.middle p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: rgb(114, 0, 0);
+}
+.head{
+    color:rgb(27, 27, 15);
+}
+.head h1,h2{
+    text-align: center;
+    text-decoration: solid;
+}
+.head img{
+  float:left;
+  margin-left:auto;
+  margin: 2%;
+  
+}
+.head p{
+    color: rgb(114, 0, 0);
+    text-align:left;
+    text-size-adjust:initial;
+}
+.sub-part{
+
+     color: rgb(114, 0, 0);
+}
+.sub-part img{
+    float:left;
+  margin-left:auto;
+  margin: 2%;
+}
+.sub-part p{
+     color: rgb(114, 0, 0);
+    text-align:left;
+}
+.sub-part h3{
+    color:black;
+}
+.last{
+
+}
+.last h2{
+    font-size:xx-large;
+    text-align:center;
+}
+.last p{
+    font-size: larger;
+    color: rgb(114, 0, 0);
+}
+.last img{
+  display:block;
+  width: 30%;
+  margin:auto;
+}
+button{
+    padding:4px 20px;
+    border:none;
+    border-radius: 10px;
+}
