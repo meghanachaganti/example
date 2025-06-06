@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color:#067597;
+    scroll-behavior: smooth;
+}
+.container{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 60px  800px 500px 900px 800px 500px 500px 50px;
+    height:100vh;
+    width:100%;
+    grid-template-areas:"nav nav nav"
+    "main main main"
+    "submain submain submain"
+    "servicecards servicecards servicecards"
+    "images images images"
+    "form form form"
+    "footer footer footer"
+    "f f f" ;
+}
+.nav{
+    grid-area: nav;
+    display:flex;
+    background-color:#FAF6E9;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    font-weight: 600;
+    flex-direction: row;
+}
+.nav ul{
+    display:flex;
+    flex-direction: row;
+}
+.nav ul li{
+    padding: 20px;
+}
+.main{
+    margin-top: 20px;
+    grid-area: main;
+    padding-top: 220px;
+    background-color: white;
+}
+
+.main img{
+   float: right;
+   margin-right: 30px;
+}
+.submain{
+    grid-area: submain;
+    background-color:#FAF6E9;
+}
+.sub1{
+    padding-top: 40px;
+}
+.sub2{
+    padding-top: 80px;
+}
+.sub1 img{
+    float: left;
+    display: block;
+}
+.sub2 img{
+    float: right;
+    display: block;
+}
+.servicecards{
+    grid-area: servicecards;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.664);
+}
+.sc{
+    width: 150px;
+    height: 150px;
+    gap:30px;
+    padding-bottom: 300px;
+    margin-right: 90px;
+    margin-left: 50px;
+}
+.images{
+    grid-area: images;
+    background-color:#FAF6E9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.im{
+    width: 150px;
+    height: 150px;
+    gap:30px;
+    margin-right: 90px;
+    margin-left: 50px;
+       padding-bottom: 300px;
+}
+.form{
+     grid-area: form; 
+    background-color: #DDEB9D;
+     margin-top: 2%;
+     padding-top: 70px;
+}
+
+#form1{
+   text-align: center;
+    padding-bottom: 20px;
+}
+#first{
+    padding: 5px;
+}
+#last{
+    padding: 5px;
+}
+#pn{
+    padding: 5px;
+}
+#ei{
+    padding: 5px;
+}
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    background-color: #FAF6E9;
+}
+.f{
+    grid-area: f;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f p{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.f1 p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(223, 198, 161);
+}
